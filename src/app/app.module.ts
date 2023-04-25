@@ -36,6 +36,7 @@ import { MessageService } from 'primeng/api';
 import { CustomCourseEntriesComponent } from './components/entries/custom-course-entries/custom-course-entries.component';
 import { InventoryComponent } from './components/inventory/inventory.component';
 import { SocialServiceModule } from './components/social-service/social-service.module';
+import { NotStudentsComponent } from './not-students/not-students.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { SocialServiceModule } from './components/social-service/social-service.
     LoginComponent,
     CustomCourseEntriesComponent,
     InventoryComponent,
+    NotStudentsComponent,
   ],
   imports: [
     BrowserAnimationsModule,
